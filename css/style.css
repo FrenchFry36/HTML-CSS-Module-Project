@@ -23,6 +23,10 @@ header img {
   width: 40px;
 }
 
+nav {
+  width: 60%;
+}
+
 ul {
   list-style-type: none;
   padding-left: 0;
@@ -36,9 +40,15 @@ li a {
   text-decoration: none;
   color: lightslategray;
   font-weight: 400;
+  cursor: pointer;
 }
 
 li:nth-child(1) a {
   color: black;
 }
+
+li a:hover {
+  color: orange;
+}
+
 /* ---------- Main style ---------- */

@@ -78,8 +78,8 @@ li a:hover {
 .introducing-section p {
   color: wheat;
   margin-bottom: 2.2em;
-  font-size: 1.8rem;
-  font-weight: 300;
+  font-size: 2.5rem;
+  font-weight: 100;
 }
 
 .introducing-section a {
@@ -92,3 +92,43 @@ li a:hover {
 }
 
 /* ---------- Main style (SECTION 2) ---------- */
+
+.options-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  padding-left: 6em;
+  padding-right: 6em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.options-section h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.options-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 100%;
+}
+
+.icon-item {
+  width: 30%;
+}
+
+.options-icons p {
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 1.2rem;
+  margin-top: 50px;
+}
+
+.icon-item img {
+  width: 65%;
+}

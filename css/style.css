@@ -132,9 +132,53 @@ li a:hover {
   width: 65%;
 }
 
+/* ---------- Main style (SECTION 3) ---------- */
+
 .get-karma-section {
   height: 30vh;
   margin-bottom: 80px;
+  display: flex;
+}
+
+.get-karma-img {
+  width: 40%;
+  background-image: url("../level-2/homepage-feature.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.get-karma-text {
+  background-color: rgb(239, 211, 211);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-karma-text p {
+  font-style: italic;
+  width: 60%;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.get-karma-text > p span {
+  color: #ed6927;
+  font-family: serif;
+  font-size: 1.7rem;
+}
+
+.get-karma-text a {
+  padding: 0.7em;
+  background-color: var(--dark-orange);
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  margin-top: 20px;
 }
 
 /* ---------- Footer style ---------- */

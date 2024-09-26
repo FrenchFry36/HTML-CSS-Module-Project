@@ -7,14 +7,38 @@
 body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
+  background: #eee;
 }
 
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
+/* ---------- Header style ---------- */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5%;
+  align-items: center;
+}
+
+header img {
+  width: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: lightslategray;
+  font-weight: 400;
+}
+
+li:nth-child(1) a {
+  color: black;
+}
+/* ---------- Main style ---------- */

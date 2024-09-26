@@ -132,6 +132,11 @@ li a:hover {
   width: 65%;
 }
 
+.get-karma-section {
+  height: 30vh;
+  margin-bottom: 80px;
+}
+
 /* ---------- Footer style ---------- */
 
 footer {

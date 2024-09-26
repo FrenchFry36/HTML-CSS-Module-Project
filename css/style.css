@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --dark-orange: #ed6927;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -48,7 +52,43 @@ li:nth-child(1) a {
 }
 
 li a:hover {
-  color: orange;
+  color: var(--dark-orange);
 }
 
-/* ---------- Main style ---------- */
+/* ---------- Main style (SECTION 1) ---------- */
+
+.introducing-section {
+  color: white;
+  background-image: url("../img/first-background.jpg");
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.introducing-section h1 {
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.introducing-section p {
+  color: wheat;
+  margin-bottom: 2.2em;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.introducing-section a {
+  padding: 1em;
+  background-color: var(--dark-orange);
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+
+/* ---------- Main style (SECTION 2) ---------- */

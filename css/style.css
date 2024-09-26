@@ -97,7 +97,6 @@ li a:hover {
   display: flex;
   flex-direction: column;
   padding-top: 8em;
-  padding-bottom: 8em;
   padding-left: 6em;
   padding-right: 6em;
   align-items: center;
@@ -131,4 +130,44 @@ li a:hover {
 
 .icon-item img {
   width: 65%;
+}
+
+/* ---------- Footer style ---------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: lightgrey solid 1px;
+  padding-bottom: 5em;
+}
+
+footer p {
+  margin-top: 1.5em;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 13%;
+  margin-top: 1.5em;
+}
+
+.social-media-icons > a {
+  border-radius: 100%;
+  width: 30%;
+  border: lightgrey solid 1px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-icons > a img {
+  width: 80%;
+}
+
+.inc {
+  color: lightslategray;
 }

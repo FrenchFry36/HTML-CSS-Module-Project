@@ -33,21 +33,55 @@
     </header>
     <main>
       <section class="left-section">
-        <form method="post" action="mailto:engineerakbarov@gmail.com">
+        <form>
           <h1>Order your Karma wifi device today!</h1>
           <fieldset class="name-fieldset">
-            <label id="name-label" for="first-name"
-              >First name *
-              <input
-                id="name"
-                name="name"
-                type="text"
-                placeholder="Enter your name"
-                class="first"
-                required
-              />
-            </label>
+            <div>
+              <label class="name-labels"
+                >First name *
+                <input name="first_name" type="text" class="name" required />
+              </label>
+            </div>
+            <div>
+              <label class="name-labels"
+                >Last name *
+                <input name="last_name" type="text" class="name" required />
+              </label>
+            </div>
           </fieldset>
+          <fieldset class="address">
+            <div>
+              <label for="address">Address *</label>
+              <input name="address" type="text" id="address" required />
+            </div>
+            <div>
+              <label for="address2">Address 2</label>
+              <input name="address2" type="text" id="address2" />
+            </div>
+            <div>
+              <div class="city-div">
+                <label for="city-input">City *</label>
+                <input
+                  list="city"
+                  name="city-input"
+                  id="city-input"
+                  placeholder="Select your city..."
+                />
+                <datalist name="city" id="city">
+                  <option value="Barcelona">Barcelona</option>
+                  <option value="Madrid">Madrid</option>
+                  <option value="Valencia">Valencia</option>
+                  <option value="Girona">Girona</option>
+                  <option value="Malaga">Malaga</option>
+                </datalist>
+              </div>
+              <div class="postcode-div">
+                <label for="postcode">Postcode *</label>
+                <input type="text" name="postcode" id="postcode" required />
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="color-radio"></fieldset>
         </form>
       </section>
       <section class="right-section"></section>

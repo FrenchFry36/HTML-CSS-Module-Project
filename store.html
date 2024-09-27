@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/store.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="icon" href="img/karma-logo.svg" />
   </head>
@@ -37,16 +38,12 @@
           <h1>Order your Karma wifi device today!</h1>
           <fieldset class="name-fieldset">
             <div>
-              <label class="name-labels"
-                >First name *
-                <input name="first_name" type="text" class="name" required />
-              </label>
+              <label for="first-name">First name * </label>
+              <input name="first_name" type="text" id="first-name" required />
             </div>
             <div>
-              <label class="name-labels"
-                >Last name *
-                <input name="last_name" type="text" class="name" required />
-              </label>
+              <label for="last-name">Last name * </label>
+              <input name="last_name" type="text" id="last-name" required />
             </div>
           </fieldset>
           <fieldset class="address-fieldset">
@@ -58,7 +55,7 @@
               <label for="address2">Address 2</label>
               <input name="address2" type="text" id="address2" />
             </div>
-            <div>
+            <div class="city-postcode-div">
               <div class="city-div">
                 <label for="city-input">City *</label>
                 <input
@@ -82,24 +79,26 @@
             </div>
           </fieldset>
           <fieldset class="color-fieldset">
-            Select a color
-            <div>
-              <input
-                type="radio"
-                name="color"
-                id="karma-orange"
-                value="karma-orange"
-              />
-              <label for="karma-orange">Karma Orange</label>
-            </div>
-            <div>
-              <input
-                type="radio"
-                name="color"
-                id="space-grey"
-                value="space-grey"
-              />
-              <label for="space-grey">Space Grey</label>
+            <p>Select a color</p>
+            <div class="color-radio-div">
+              <div class="radio-div">
+                <input
+                  type="radio"
+                  name="color"
+                  id="karma-orange"
+                  value="karma-orange"
+                />
+                <label for="karma-orange">Karma orange</label>
+              </div>
+              <div class="radio-div">
+                <input
+                  type="radio"
+                  name="color"
+                  id="space-grey"
+                  value="space-grey"
+                />
+                <label for="space-grey">Space Grey</label>
+              </div>
             </div>
           </fieldset>
           <fieldset class="terms-fieldset">
@@ -119,6 +118,7 @@
               >. *</label
             >
           </fieldset>
+          <button class="orange-button" type="submit">Place my order</button>
         </form>
       </section>
       <section class="right-section"></section>

@@ -49,7 +49,7 @@
               </label>
             </div>
           </fieldset>
-          <fieldset class="address">
+          <fieldset class="address-fieldset">
             <div>
               <label for="address">Address *</label>
               <input name="address" type="text" id="address" required />
@@ -81,7 +81,44 @@
               </div>
             </div>
           </fieldset>
-          <fieldset class="color-radio"></fieldset>
+          <fieldset class="color-fieldset">
+            Select a color
+            <div>
+              <input
+                type="radio"
+                name="color"
+                id="karma-orange"
+                value="karma-orange"
+              />
+              <label for="karma-orange">Karma Orange</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="color"
+                id="space-grey"
+                value="space-grey"
+              />
+              <label for="space-grey">Space Grey</label>
+            </div>
+          </fieldset>
+          <fieldset class="terms-fieldset">
+            <input
+              type="checkbox"
+              name="terms_and_conditions"
+              id="terms"
+              value="agreed"
+              required
+            />
+            <label for="terms"
+              >By placing your order you agree to Karma's
+              <span
+                ><a href="http://" target="_blank" rel="noopener noreferrer"
+                  >Terms and Conditions</a
+                ></span
+              >. *</label
+            >
+          </fieldset>
         </form>
       </section>
       <section class="right-section"></section>

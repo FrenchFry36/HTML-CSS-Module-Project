@@ -64,6 +64,11 @@ input {
   width: 100%;
   display: flex;
   gap: 15px;
+  justify-content: space-between;
+}
+
+.name-fieldset div {
+  width: 50%;
 }
 
 .city-postcode-div {

@@ -1,0 +1,106 @@
+@media (max-width: 768px) {
+  /* ---- Header ---- */
+
+  .nav-links {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--darker-white);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    font-size: 2rem;
+  }
+
+  .nav-links li {
+    margin: 1rem 0;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0.1rem;
+    right: 1rem;
+    z-index: 1000;
+  }
+
+  .menu-toggle:checked + .menu-icon + .nav-links {
+    display: flex;
+  }
+
+  /* ---- Main style (SECTION 1) ---- */
+
+  .introducing-section {
+    height: 400px;
+    text-align: center;
+  }
+
+  .introducing-section h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .introducing-section p {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .introducing-section a {
+    padding: 0.7em;
+    font-size: 1rem;
+  }
+
+  /* ---- Main style (SECTION 2) ---- */
+
+  .options-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .options-choises {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.7em;
+    margin-bottom: 2em;
+    width: 100%;
+    gap: 32px;
+  }
+
+  .options-section h2 {
+    font-size: 2rem;
+  }
+
+  .icon-item {
+    width: 70%;
+  }
+
+  .icon-item img {
+    width: 45%;
+  }
+
+  /* ---- Main style (SECTION 3) ---- */
+
+  .karma-section {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .karma-img {
+    width: 100%;
+  }
+}

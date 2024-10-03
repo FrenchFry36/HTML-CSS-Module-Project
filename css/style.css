@@ -35,7 +35,19 @@ header img {
   width: 30px;
 }
 
-ul {
+.menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 3rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--main-black);
+}
+
+.nav-links {
   list-style-type: none;
   padding-left: 0;
   margin-left: 0;

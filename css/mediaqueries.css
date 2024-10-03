@@ -98,9 +98,25 @@
   .karma-section {
     flex-direction: column;
     height: 100%;
+    margin-bottom: 30px;
   }
 
   .karma-img {
+    width: auto;
+    height: 300px;
+  }
+
+  .karma-text {
     width: 100%;
+    padding: 2em;
+  }
+
+  .karma-text p {
+    width: 100%;
+  }
+
+  .karma-text a {
+    padding: 0.7em;
+    font-size: 1rem;
   }
 }

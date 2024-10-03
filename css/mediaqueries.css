@@ -119,4 +119,13 @@
     padding: 0.7em;
     font-size: 1rem;
   }
+
+  footer {
+    padding-bottom: 1.5em;
+  }
+
+  .social-media-icons > a {
+    width: 30px;
+    height: 30px;
+  }
 }
